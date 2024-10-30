@@ -79,6 +79,7 @@ def main(num_reviews):
             page.select_option("#InputDay", current_day)
             page.click("#InputMonth")
             page.select_option("#InputMonth", current_month)
+            input("Pause, any key to skip")
             page.select_option("#InputHour", hora)
             page.click("#InputMinute")
             page.select_option("#InputMinute", minutos)
